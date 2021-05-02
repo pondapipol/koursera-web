@@ -1,0 +1,21 @@
+mutation editsubUnit(
+  $subId: Float!
+  $subName: String!
+  $videoPath: String!
+  $videoDescription: String!
+  $content: String!
+  $contentType: String!
+  $unitId: Float!
+  $createDate: String!
+) {
+  updateSubunit(
+    subId: $subId
+    subName: $subName
+    videoPath: $videoPath
+    videoDescripiton: $videoDescription
+    content: $content
+    contentType: $contentType
+    unitId: $unitId
+    createDate: $createDate
+  )
+}

@@ -1,0 +1,6 @@
+query enrolledCourse($userId: Float!) {
+  enrolledCourse(userId: $userId) {
+    courseId
+    paid
+  }
+}

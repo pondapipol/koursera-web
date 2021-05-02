@@ -1,0 +1,12 @@
+query instructorCourse($creatorId: Float!) {
+  instructorCourse(creatorId: $creatorId) {
+    courseId
+    courseName
+    courseDescription
+    category
+    coverImage
+    timeEstimation
+    level
+    createDate
+  }
+}

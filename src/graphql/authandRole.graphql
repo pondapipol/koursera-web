@@ -1,0 +1,8 @@
+query authandRole {
+  authandRole {
+    id
+    name
+    email
+    role
+  }
+}

@@ -1,0 +1,7 @@
+mutation updateunitdetail(
+  $unitId: Float!
+  $unitName: String!
+  $unitDes: String!
+) {
+  updateUnit(unitId: $unitId, unitName: $unitName, unitDescription: $unitDes)
+}

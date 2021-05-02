@@ -1,0 +1,11 @@
+query OneSubUnit($subId: Float!) {
+  subunitOne(subId: $subId) {
+    subName
+    contentType
+    content
+    videoPath
+    videoDescription
+    createDate
+    UnitId
+  }
+}

@@ -1,0 +1,12 @@
+query coursehome($method: String!) {
+  course(findmethod: $method) {
+    courseId
+    courseName
+    courseDescription
+    category
+    createDate
+    coverImage
+    creatorId
+    organization
+  }
+}

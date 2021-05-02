@@ -1,0 +1,17 @@
+mutation updateUser(
+  $userId: Float!
+  $name: String!
+  $email: String!
+  $profileimage: String!
+  $aboutme: String!
+  $age: String!
+) {
+  updateUser(
+    userId: $userId
+    name: $name
+    email: $email
+    profileImage: $profileimage
+    aboutme: $aboutme
+    age: $age
+  )
+}

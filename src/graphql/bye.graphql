@@ -1,0 +1,8 @@
+query Bye {
+  bye {
+    id
+    name
+    email
+    role
+  }
+}

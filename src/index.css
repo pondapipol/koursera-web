@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* min-height: 100vh; */
+  font-family: "Montserrat", sans-serif;
+  /* margin-bottom: 100vh; */
+  background-color: #f8f8fc;
+}
+
+div {
+  font-family: "Montserrat", sans-serif;
+}
+
+.app {
+  min-height: 80vh;
+  /* margin-bottom: 20vh; */
+  border-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.MuiInputBase-input {
+  border-radius: 10px;
+}
+
+.toolbarClassName {
+  border: 1px grey;
+  width: 80%;
+}
+
+.editorClassName {
+  height: 20vw !important;
+}
+
+.wrapperClassName {
+  border: 1px grey;
+}
+
+.dropdown {
+  position: absolute;
+  width: 18vw;
+  top: 7vh;
+  left: 19.5vw;
+  background: #f8f8fc;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.searchresult {
+  position: absolute;
+  width: 34.5vw;
+  top: 6.7vh;
+  left: 27.8vw;
+  background: #f8f8fc;
+  background: white;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  z-index: 9999 !important;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  margin-top: 10vh;
+  /* height: 10vh; */
+  padding: 5vw 0 5vw 0;
+  justify-content: center;
+
+  background-color: rgba(31, 38, 135, 0.1);
+}
+
+.inner-footer {
+  font-size: 1.2vw;
+  justify-content: center;
+}
+
+.profilename {
+  /* display: flex; */
+  font-size: 40px !important ;
+  /* flex-wrap: wrap; */
+  word-wrap: break-word !important;
+  padding: 20px 20px 0 0;
+}
+
+.backbut {
+  font-size: 2vw !important;
+}

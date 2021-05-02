@@ -1,0 +1,3 @@
+query isenrolled($userId: Float!, $courseId: Float!) {
+  enrolledCourseId(userId: $userId, courseId: $courseId)
+}

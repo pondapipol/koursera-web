@@ -1,0 +1,12 @@
+query individualCourse($courseId: Float!) {
+  individualCourse(courseId: $courseId) {
+    courseId
+    courseName
+    courseDescription
+    category
+    coverImage
+    timeEstimation
+    level
+    createDate
+  }
+}

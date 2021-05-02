@@ -1,0 +1,7 @@
+mutation addunit($unitName: String!, $unitDes: String!, $courseId: Float!) {
+  addCourseUnit(
+    unitName: $unitName
+    unitDescription: $unitDes
+    courseId: $courseId
+  )
+}

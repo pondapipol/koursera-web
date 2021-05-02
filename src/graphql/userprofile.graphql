@@ -1,0 +1,11 @@
+query userprofile($userId: Float!) {
+  usersid(userId: $userId) {
+    id
+    name
+    email
+    profileimage
+    role
+    age
+    aboutme
+  }
+}

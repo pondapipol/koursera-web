@@ -1,0 +1,8 @@
+query courseSearch($name: String!) {
+  courseSearch(name: $name) {
+    courseId
+    courseName
+    coverImage
+    organization
+  }
+}

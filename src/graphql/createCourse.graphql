@@ -1,0 +1,21 @@
+mutation createcourse(
+  $CourseName: String!
+  $CourseDescription: String!
+  $category: String!
+  $timeEst: String!
+  $level: String!
+  $Organization: String!
+  $creatorId: Float!
+  $coverImage: String!
+) {
+  CreateCourse(
+    CourseName: $CourseName
+    CourseDescription: $CourseDescription
+    category: $category
+    timeEst: $timeEst
+    level: $level
+    organization: $Organization
+    creatorId: $creatorId
+    coverImage: $coverImage
+  )
+}

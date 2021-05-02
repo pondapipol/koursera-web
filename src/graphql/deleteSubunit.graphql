@@ -1,0 +1,3 @@
+mutation deleteSubUnit($subId: Float!) {
+  deleteSubunit(subId: $subId)
+}

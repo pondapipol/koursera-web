@@ -1,0 +1,12 @@
+query courseexplore($method: String!) {
+  courseExplore(findmethod: $method) {
+    courseId
+    courseName
+    courseDescription
+    category
+    createDate
+    coverImage
+    creatorId
+    organization
+  }
+}

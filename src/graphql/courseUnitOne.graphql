@@ -1,0 +1,8 @@
+query courseUnitOne($unitId: Float!) {
+  courseunitOne(unitId: $unitId) {
+    unitName
+    unitDescription
+    createDate
+    courseId
+  }
+}

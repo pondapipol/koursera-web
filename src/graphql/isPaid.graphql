@@ -1,0 +1,7 @@
+query isPaid($courseId: Float!) {
+  ispaid(courseId: $courseId) {
+    payId
+    paid
+    cardnumber
+  }
+}

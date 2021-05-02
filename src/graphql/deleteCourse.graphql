@@ -1,0 +1,3 @@
+mutation deleteCourse($courseId: Float!) {
+  deleteCourse(courseId: $courseId)
+}

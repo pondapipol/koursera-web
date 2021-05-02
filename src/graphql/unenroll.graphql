@@ -1,0 +1,3 @@
+mutation unenroll($userId: Float!, $courseId: Float!) {
+  unenroll(userId: $userId, courseId: $courseId)
+}

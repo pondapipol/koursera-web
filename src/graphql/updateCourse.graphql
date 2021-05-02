@@ -1,0 +1,21 @@
+mutation updateCourse(
+  $courseId: Float!
+  $courseName: String!
+  $courseDes: String!
+  $category: String!
+  $timeEst: String!
+  $level: String!
+  $organization: String!
+  $coverImage: String!
+) {
+  updateCourse(
+    courseId: $courseId
+    CourseName: $courseName
+    CourseDescription: $courseDes
+    category: $category
+    timeEst: $timeEst
+    level: $level
+    organization: $organization
+    coverImage: $coverImage
+  )
+}

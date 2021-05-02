@@ -1,0 +1,19 @@
+mutation enroll(
+  $paid: Boolean!
+  $cardnumber: String!
+  $exmonth: String!
+  $exyear: String!
+  $cvc: String!
+  $courseId: Float!
+  $userId: Float!
+) {
+  enroll(
+    paid: $paid
+    cardnumber: $cardnumber
+    exmonth: $exmonth
+    exyear: $exyear
+    cvc: $cvc
+    courseId: $courseId
+    userId: $userId
+  )
+}

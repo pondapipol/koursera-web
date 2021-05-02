@@ -1,0 +1,17 @@
+mutation addSubunit(
+  $subname: String!
+  $videoPath: String!
+  $videoDescription: String!
+  $contentType: String!
+  $content: String!
+  $unitId: Float!
+) {
+  addSubunit(
+    subName: $subname
+    videoPath: $videoPath
+    videoDescripiton: $videoDescription
+    contentType: $contentType
+    content: $content
+    unitId: $unitId
+  )
+}
